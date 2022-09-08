@@ -1,0 +1,225 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* aquí puse la mayoría de los estilos de imagen: color, tamaños de texto en su mayoría, etc */
+
+.jeder,
+.sec1, .futer {
+    background: #1F2937;
+    color: white;
+}
+
+.logo {
+    font-weight: bold;
+    size: 24px;
+}
+
+.sec2,
+.sec4 {
+    background: white;
+}
+
+.sec3 {
+    background: #E5E7EB;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.modal {
+    background: #3882F6;
+    color: white;
+
+}
+
+/* aquí empiezan los flex */
+
+/* header*/
+
+.jeder {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    
+    display: flex;
+    gap: 15px; 
+}
+
+.logo,
+.links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mtn {
+    max-height: 171px;
+}
+
+.sea {
+    max-width: 175px;
+}
+
+/* sección 1 */
+
+.sec1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 16px;
+}
+
+.up {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: justify;
+
+    display: flex;
+}
+
+.low {
+    display: flex;
+    padding: 16px 8px
+}
+
+button.sign1 {
+    background: #3882F6;
+    color: white;
+    padding: 8px 35px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid #3882F6;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sección 2 */
+
+.sec2 {
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.titu2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+.conte {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* sección 3 */
+
+.sec3 {
+    padding: 75px 75px;
+}
+
+.quote {
+
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.autor {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    padding-right: 200px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+/* sección 4 */
+
+.sec4 {
+    padding: 80px 150px;
+}
+
+.modal {
+    border-radius: 8px;
+    padding: 50px 100px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.supe {
+
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.infe {
+    font-weight: initial;
+    font-size: medium;
+
+}
+
+button.sign2 {
+
+    background: #3882F6;
+    color: white;
+    padding: 2px 35px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* footer */
+
+.futer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 40px;
+}
